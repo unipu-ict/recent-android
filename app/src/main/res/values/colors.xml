@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorLightGray">#DADADA</color>
+    <color name="colorGray">#D4D4D4</color>
+
+    <!-- basic colors -->
+    <color name="white">#FFF</color>
+    <color name="black">#000</color>
+    <color name="cream">#D9D0B8</color>
+    <color name="pink">#BC1142</color>
+    <color name="blue">#004A66</color>
+    <color name="light_gray">#E1E1E1</color>
+
+    <!-- activity_login.xml -->
+    <color name="login_background">#004A66</color>
+    <color name="login_button">#BC1142</color>
+
+
+
+</resources>

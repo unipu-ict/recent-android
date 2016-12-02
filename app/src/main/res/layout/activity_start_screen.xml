@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_start_screen"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/activity_padding"
+    android:background="#0765B9"
+    tools:context="iip.hr.recent.view.StartScreenActivity">
+
+    <Button
+        android:id="@+id/dashboard"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.5"
+        android:background="@drawable/login_button"
+        android:textColor="@color/white"
+        android:text="Pregled evidencije" />
+
+    <Button
+        android:id="@+id/nfc"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/login_button"
+        android:textColor="@color/white"
+        android:layout_weight="0.5"
+        android:text="Evidencija" />
+
+</LinearLayout>

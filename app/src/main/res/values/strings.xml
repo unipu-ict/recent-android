@@ -1,0 +1,18 @@
+<resources>
+    <!-- APP Name -->
+    <string name="app_name">RecENT</string>
+
+    <!-- activity_login.xmll -->
+    <string name="et_username_hint">Korisničko ime</string>
+    <string name="et_password_hint">Lozinka</string>
+    <string name="b_login">Prijava</string>
+    <string name="tv_error">Greška, neuspješna prijava.</string>
+
+    <!-- activity_dashboard.xml -->
+    <string name="s_month_prompt">Odaberite mjesec</string>
+    <string name="s_year_prompt">Odaberite godinu</string>
+
+    <string name="servicedesc">The Magical HCE Demo Service</string>
+    <string name="aiddescription">Chrome NFC demo</string>
+
+</resources>

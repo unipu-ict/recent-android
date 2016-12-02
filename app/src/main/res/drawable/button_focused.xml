@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset xmlns:android="http://schemas.android.com/apk/res/android"
+    android:insetTop="5dp"
+    android:insetBottom="5dp"
+    android:insetLeft="5dp"
+    android:insetRight="5dp">
+
+    <shape android:shape="rectangle">
+
+
+        <gradient
+            android:angle="270"
+            android:centerX="100%"
+            android:centerY="100%"
+            android:centerColor="@color/login_button"
+            android:startColor="#df144e"
+            android:endColor="#891335"
+            android:type="linear" />
+
+        <padding
+            android:left="16dp"
+            android:top="16dp"
+            android:right="16dp"
+            android:bottom="16dp" />
+
+    </shape>
+</inset>
