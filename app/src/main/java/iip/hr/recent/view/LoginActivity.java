@@ -48,12 +48,14 @@ public class LoginActivity extends AppCompatActivity {
         ButterKnife.bind(this);
 
         Typeface jaapokki = Typeface.createFromAsset(getAssets(), "fonts/jaapokki.ttf");
-        Typeface caviarDreams = Typeface.createFromAsset(getAssets(), "fonts/caviar_dreams.ttf");
+        Typeface libreFranklin = Typeface.createFromAsset(getAssets(), "fonts/LibreFranklin-Regular.ttf");
+        Typeface libreFranklinBold = Typeface.createFromAsset(getAssets(), "fonts/LibreFranklin-Bold.ttf");
+        // Neuton-Regular je dobar za običan tekst!!
         logo.setTypeface(jaapokki);
-        username.setTypeface(caviarDreams);
-        password.setTypeface(caviarDreams);
-        login.setTypeface(caviarDreams);
-        error.setTypeface(caviarDreams);
+        username.setTypeface(libreFranklin);
+        password.setTypeface(libreFranklin);
+        login.setTypeface(libreFranklinBold);
+        error.setTypeface(libreFranklin);
 
     }
 

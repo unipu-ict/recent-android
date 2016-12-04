@@ -13,6 +13,7 @@
     <color name="pink">#BC1142</color>
     <color name="blue">#004A66</color>
     <color name="light_gray">#E1E1E1</color>
+    <color name="startscreen_button_border">#DDF</color>
 
     <!-- activity_login.xml -->
     <color name="login_background">#004A66</color>

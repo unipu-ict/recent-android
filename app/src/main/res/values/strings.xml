@@ -7,6 +7,8 @@
     <string name="et_password_hint">Lozinka</string>
     <string name="b_login">Prijava</string>
     <string name="tv_error">Greška, neuspješna prijava.</string>
+    <string name="pregled_evidencije">Pregled \n evidencija \n radnog vremena</string>
+    <string name="nfc_evidencija">Evidencija</string>
 
     <!-- activity_dashboard.xml -->
     <string name="s_month_prompt">Odaberite mjesec</string>

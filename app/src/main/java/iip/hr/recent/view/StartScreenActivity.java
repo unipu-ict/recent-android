@@ -29,9 +29,9 @@ public class StartScreenActivity extends AppCompatActivity {
         setContentView(R.layout.activity_start_screen);
         ButterKnife.bind(this);
 
-        Typeface caviarDreams = Typeface.createFromAsset(getAssets(), "fonts/caviar_dreams.ttf");
-        dashboard.setTypeface(caviarDreams);
-        nfc.setTypeface(caviarDreams);
+        Typeface libreFranklin = Typeface.createFromAsset(getAssets(), "fonts/LibreFranklin-Bold.ttf");
+        dashboard.setTypeface(libreFranklin);
+        nfc.setTypeface(libreFranklin);
 
         user = (User) getIntent().getSerializableExtra(IntentFactory.USER);
     }

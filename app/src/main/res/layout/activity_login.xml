@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#0765B9"
+    android:background="@drawable/background_color"
     android:padding="@dimen/activity_padding"
     tools:context=".view.LoginActivity">
 
@@ -46,14 +46,16 @@
 
     <Button
         android:id="@+id/b_login"
-        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/b_login"
         android:textColor="@color/white"
         android:layout_centerVertical="true"
         android:background="@drawable/login_button"
         android:layout_alignLeft="@+id/et_username"
-        android:layout_alignRight="@+id/et_username" />
+        android:layout_alignRight="@+id/et_username"
+        android:layout_width="wrap_content"
+        android:textSize="18sp"
+        android:textStyle="normal|bold" />
 
     <TextView
         android:id="@+id/tv_error"
